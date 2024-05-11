@@ -1,0 +1,64 @@
+/* 
+Andre Sebastian Vizcarra Salas
+Azul Paola Rodriguez Ruiz 
+2AmPr Proyecto Parcial 2 ISSI
+*/
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: brown;
+}
+
+#header{
+    width: 100%;
+    height: auto;
+}
+
+#titulos-header{
+    font-size: 18px;
+    text-align: center;
+}
+
+#content-header{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+#article-header{
+    font-size: 15px;
+    text-align: right;
+    width: 99%;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
